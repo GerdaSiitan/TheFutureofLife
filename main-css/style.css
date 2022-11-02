@@ -109,8 +109,8 @@ h5 {font-size: 1.25rem;}
 small, .text_small {font-size: 0.8rem;}
 
 body{
-  background: rgb(9,119,121);
-background: radial-gradient(circle, rgba(9,119,121,1) 18%, rgba(108,9,127,1) 67%, rgba(0,212,255,1) 100%);
+  background: rgb(146,247,249);
+background: radial-gradient(circle, rgba(146,247,249,1) 18%, rgba(213,163,222,1) 67%, rgba(200,164,239,1) 100%);
 }
 
 header, nav ul {
@@ -120,15 +120,24 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 1em 2em;
+  border: 3px solid #000000;
 }
 header li{
   list-style: none;
   margin-right: 1em;
 }
-header a {
+header a{
   text-decoration: none;
+  color: black;
+  border: 2px solid #000000;
   Link underline */
 }
+
+header {
+  margin: auto;
+  width: 85%;
+}
+
 h1 {
   font-size: 170px;
 }
@@ -139,11 +148,9 @@ p1 {
 .hero{
   padding-left: 150px;
   padding-right: 150px;
+  padding-top: 100px;
 }
-.logo{
-  padding-left: 100px;
 
-}
 .footergrid {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
@@ -152,7 +159,6 @@ grid-column-gap: 0px;
 grid-row-gap: 0px;
 padding-left: 100px;
 padding-right: 100px;
-padding-top: 40px;
 }
 
 div.Weapons {
